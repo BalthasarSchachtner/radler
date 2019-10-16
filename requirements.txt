@@ -1,0 +1,9 @@
+pandas
+keras
+h5py
+scikit-learn
+jupyterlab
+pynrrd
+pillow
+pydicom
+graphviz
