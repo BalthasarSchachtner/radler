@@ -6,4 +6,5 @@ jupyterlab
 pynrrd
 pillow
 pydicom
+pydot
 graphviz
