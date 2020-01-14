@@ -1,6 +1,6 @@
 ## Run docker container
 
- ```docker run -v $(realpath ~/):/tf/notebooks -it -p 8888:8888 --gpus all balthasarschachtner/radler:v{x}.{y}```
+ ```docker run -u $(id -u):$(id -g) -v $(realpath ~/):/tf/notebooks -it -p 8888:8888 --gpus all balthasarschachtner/radler:v{x}.{y}```
 
 ### use password authentication instead of tokens:
 - write password to ~/.jupyter/jupyter_notebook_config.json e.g. using ```jupyter notebook password```
