@@ -1,6 +1,5 @@
 # Changelog
 
-## v1.5
+## v1.6
 
-### Added
-- Package ``` ``` via pip
+### add graphviz to container

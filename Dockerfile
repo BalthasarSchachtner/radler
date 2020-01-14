@@ -1,5 +1,7 @@
 FROM tensorflow/tensorflow:2.0.0-gpu-py3-jupyter
 
+RUN apt update &&  apt install -y --no-install-recommends graphviz
+
 RUN mkdir /install
 
 ADD requirements.txt /install
