@@ -16,6 +16,8 @@ RUN apt update &&  apt install -y --no-install-recommends \
 RUN jupyter nbextension enable --py widgetsnbextension --sys-prefix
 
 RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
+RUN jupyter labextension install @jupyterlab/toc --no-build
+RUN jupyter labextension install @krassowski/jupyterlab_go_to_definition
 
 RUN jupyter lab build
 RUN jupyter lab clean
