@@ -1,10 +1,11 @@
-pandas
-keras
+batchgenerators
+graphviz
 h5py
-scikit-learn
 jupyterlab
-pynrrd
+keras
+pandas
 pillow
 pydicom
 pydot
-graphviz
+pynrrd
+scikit-learn

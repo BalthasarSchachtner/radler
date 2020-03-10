@@ -8,13 +8,14 @@ RUN pip install -U pip
 
 RUN pip install -r /install/requirements.txt
 
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 
 RUN apt update &&  apt install -y --no-install-recommends \
-    graphviz nodejs npm yarn
+    graphviz nodejs
 
 RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
 RUN jupyter labextension install @jupyterlab/toc --no-build
-RUN jupyter labextension install @krassowski/jupyterlab_go_to_definition --no-build
+#RUN jupyter labextension install @krassowski/jupyterlab_go_to_definition --no-build
 
 RUN jupyter nbextension enable --py widgetsnbextension --sys-prefix
 
