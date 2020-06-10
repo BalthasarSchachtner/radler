@@ -5,7 +5,8 @@ jupyterlab
 keras
 pandas
 pillow
-pydicom
+pydicom==2.0.0
 pydot
 pynrrd
 scikit-learn
+seaborn=0.10.1
