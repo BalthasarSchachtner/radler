@@ -1,12 +1,12 @@
 batchgenerators
 graphviz
 h5py
-jupyterlab
+jupyterlab==2.1.4
 keras
-pandas
+pandas==1.0.5
 pillow
 pydicom==2.0.0
 pydot
-pynrrd
+pynrrd==0.4.2
 scikit-learn
 seaborn==0.10.1
