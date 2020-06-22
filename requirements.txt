@@ -11,3 +11,4 @@ pynrrd==0.4.2
 scikit-learn
 seaborn==0.10.1
 streamlit==0.61.0
+tensorflow==2.2.0
