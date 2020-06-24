@@ -1,7 +1,7 @@
 batchgenerators
 graphviz
 h5py
-jupyterlab==2.1.4
+jupyterlab==2.1.5
 keras
 pandas==1.0.5
 pillow
