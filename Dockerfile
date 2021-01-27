@@ -6,6 +6,8 @@ ADD requirements.txt /install
 
 RUN pip install -U pip
 
+RUN python --version
+
 RUN pip install -r /install/requirements.txt
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
