@@ -25,9 +25,7 @@ RUN jupyter lab build
 RUN jupyter lab clean
 RUN npm cache clean --force
 
-RUN mkdir -p /tf/.jupyter
-
-RUN ln -s /tf/notebooks/.jupyter/jupyter_server_config.json /tf/.jupyter/jupyter_server_config.json
+RUN ln -s /tf/notebooks/.jupyter/ /tf/.jupyter
 
 ENV HOME /tf
 
