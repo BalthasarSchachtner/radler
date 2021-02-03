@@ -29,4 +29,6 @@ RUN ln -s /tf/notebooks/.jupyter/ /tf/.jupyter
 
 ENV HOME /tf
 
+ENV TF_FORCE_GPU_ALLOW_GROWTH=true
+
 CMD ["bash", "-c", "source /etc/bash.bashrc && jupyter lab --notebook-dir=/tf/notebooks --ip 0.0.0.0 --no-browser --allow-root"]
