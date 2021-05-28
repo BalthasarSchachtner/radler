@@ -17,3 +17,6 @@
 - https://www.tensorflow.org/install/docker
 - https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/dockerfiles/dockerfiles/gpu-jupyter.Dockerfile
 - https://hub.docker.com/r/tensorflow/tensorflow
+
+## Test setup
+- Download notebook here: https://www.tensorflow.org/tutorials/quickstart/beginner
